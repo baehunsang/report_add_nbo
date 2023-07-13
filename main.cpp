@@ -13,5 +13,5 @@ uint32_t open_bin(char* file){
 int main(int argc, char* argv[]){
 	uint32_t n1 = open_bin(argv[1]);
 	uint32_t n2 = open_bin(argv[2]);
-	printf("1000(0x%x) + 500(0x%x) = 1500(0x%x)", n2, n1, uint32_t(n1+n2));
+	printf("%d(0x%x) + %d(0x%x) = %d(0x%x)", n1, n1, n2, n2,uint32_t(n1+n2), uint32_t(n1+n2));
 }
